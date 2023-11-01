@@ -15,17 +15,14 @@ const { title, description } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
-		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="min-h-screen text-neutral-300 bg-neutral-950 dark">
+	<body class="min-h-screen sm:px-8 bg-neutral-50 dark:bg-neutral-950 text-neutral-800 dark:text-neutral-300 selection:bg-amber-500 selection:text-amber-800 dark:selection:bg-amber-700 dark:selection:text-amber-950">
 		<slot />
 	</body>
 </html>
 <style is:global>
-	html { font-family: 'Inter', sans-serif; }
-    @supports (font-variation-settings: normal) {
-      html { font-family: 'Inter var', sans-serif; }
-    }
+	html { font-family: 'Inter var', sans-serif; }
 </style>
