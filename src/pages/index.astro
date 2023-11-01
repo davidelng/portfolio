@@ -8,57 +8,57 @@ const dedaStack= ["AWS", "Docker", "PrestaShop", "PHP", "SQL", "Python"];
 ---
 
 <Layout title="Davide Longo | Full Stack Developer" description="A Dev, Musician and Surfskater on his way to become a Digital Nomad">
-	<div id="container" class="mx-auto max-w-screen-xl px-6">
+	<div id="container" class="mx-auto max-w-screen-sm px-6">
 		<header class="py-12">
 		  <h1 class="text-5xl font-bold tracking-tight"><a href="#">Davide Longo</a></h1>
 		  <h2 class="mt-3 text-lg font-medium tracking-tight">Full Stack Developer at <Link title="Deda Digital" href="https://www.deda.digital/home"/></h2>
-		  <p class="mt-4 leading-normal text-foreground">A Dev, Musician and Surfskater based in Italy on his way to become a Digital Nomad.</p>
+		  <p class="mt-4 leading-normal text-neutral-400">A Dev, Musician and Surfskater based in Italy on his way to become a Digital Nomad.</p>
 		  <ul class="flex flex-wrap gap-3 mt-6">
 			<li><a class="text-2xl" href=""><span class="sr-only">GitHub</span></a></li>
 			<li><a class="text-2xl" href=""><span class="sr-only">LinkedIn</span></a></li>
 		  </ul>
 		</header>
 		<main>
-		<section class="py-6">
+		  <section class="py-6 mb-6">
 			<h3 class="font-bold text-sm uppercase tracking-widest mb-3">About</h3>
-			<p class="text-foreground text-sm">Hi, I'm Davide, a humanities graduate whose main focus is building digital products, currently employed as a Full Stack Developer. When I'm not coding, you can find me surfskating or playing gigs, or maybe exploring the world.</p>
+			<p class="text-neutral-400 text-sm">Hi, I'm Davide, a humanities graduate whose main focus is building digital products, currently employed as a Full Stack Developer. When I'm not coding, you can find me surfskating or playing gigs, or maybe exploring the world.</p>
 		  </section>
-		  <section class="py-6">
+		  <section class="py-6 mb-6">
 			<h3 class="font-bold text-sm uppercase tracking-widest mb-3">Experience</h3>
 			<ul class="flex flex-col gap-6">
 			  <li class="flex flex-col gap-2 mt-2">
-				<div class="text-xs font-semibold uppercase tracking-wide text-foreground">March 2022 — Present</div>
+				<div class="text-xs font-semibold uppercase tracking-wide text-neutral-400">March 2022 — Present</div>
 				<a class="flex items-center" href="https://www.deda.digital/home">Deda Digital</a>
-				<p class="text-foreground text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+				<p class="text-neutral-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 				<ul class="flex flex-wrap gap-2 mt-2">
 				{dedaStack.map(item => <li><Badge text={item}/></li>)}
 				</ul>
 			  </li>
 			  <li class="flex flex-col gap-2 mt-2">
-				<div class="text-xs font-semibold uppercase tracking-wide text-foreground">2020 — 2022</div>
+				<div class="text-xs font-semibold uppercase tracking-wide text-neutral-400">2020 — 2022</div>
 				<p>Freelance</p>
-				<p class="text-foreground text-sm">I've built a few static websites and WordPress blogs. I'm still building random stuff for myself to learn new technologies and level-up my stack, some of which my are on my GitHub, while other lay dormant on my hard drive.</p>
+				<p class="text-neutral-400 text-sm">I've built a few static websites and WordPress blogs. I'm still building random stuff for myself to learn new technologies and level-up my stack, some of which my are on my GitHub, while other lay dormant on my hard drive.</p>
 				<ul class="flex flex-wrap gap-2 mt-2">
 				  {freelanceStack.map(item => <li><Badge text={item}/></li>)}
 				</ul>
 			  </li>
 			</ul>
 		  </section>
-		  <section class="py-6">
+		  <section class="py-6 mb-6">
 			<h3 class="font-bold text-sm uppercase tracking-widest mb-3">Certifications</h3>
 			<ul class="flex flex-col gap-3">
-			  <li class="bg-secondary rounded p-3">
+			  <li class="bg-neutral-800 rounded p-3">
 				<p class="flex gap-2 items-center">PCAP - Certified Associate in Python Programming</p>
-				<div class="text-xs font-semibold uppercase tracking-wide mt-1 text-foreground">August 2023</div>
+				<div class="text-xs font-semibold uppercase tracking-wide mt-1 text-neutral-400">August 2023</div>
 			  </li>
-			  <li class="bg-secondary rounded p-3">
+			  <li class="border border-neutral-800 rounded-2xl p-4">
 				<p class="flex gap-2 items-center">PrestaShop Full-Stack Developer</p>
-				<div class="text-xs font-semibold uppercase tracking-wide mt-1 text-foreground">March 2023</div>
+				<div class="text-xs font-semibold uppercase tracking-wide mt-1 text-neutral-400">March 2023</div>
 			  </li>
 			</ul>
 		  </section>
 		</main>
-		<footer class="bg-ground my-6 p-6 rounded text-sm backdrop-blur">
+		<footer class="bg-neutral-900 mb-6 mt-12 p-6 rounded text-sm backdrop-blur">
 		  <p>Color palette from <Link title="Realtime Colors" href="https://www.realtimecolors.com/"/>. Coded in <Link title="VS Code" href="https://code.visualstudio.com/"/>. Built with <Link title="Astro" href="https://astro.build/"/> and <Link title="Tailwind CSS" href="https://tailwindcss.com/"/>. Deployed on <Link title="Vercel" href="https://vercel.com/"/>.</p>
 		</footer>
 	  </div>
