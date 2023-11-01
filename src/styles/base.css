@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --text: #1d150c;
+        --foreground: #1d150cf0;
+        --ground: #eeebe8;
+        --background: #fbf8f4;
+        --primary: #cc7000;
+        --secondary: #f0e7db;
+        --accent: #b5854a;
+    }
+    .dark {
+        --text: #f3ebe2;
+        --foreground: #f3ebe2c7;
+        --ground: #13100c;
+        --background: #0b0804;
+        --primary: #ffa333;
+        --secondary: #241b0f;
+        --accent: #b5854a;
+    }
+}
+
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url("/fonts/Inter-roman.var.woff2?v=3.19") format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url("/fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
+}
