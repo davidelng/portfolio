@@ -1,0 +1,40 @@
+{
+    "metadata": {
+        "title": "Davide Longo | Full Stack Developer",
+        "description": "Dev, Musician and Surfskater based in Italy"
+    },
+    "about": {
+        "text": "Dev, Musician and Surfskater based in Italy",
+        "subtext": "Hi, I'm Davide, a humanities graduate whose main focus is building digital products, currently employed as a Full Stack Developer. When I'm not coding, you can find me surfskating, playing gigs or maybe exploring the world."
+    },
+    "experience": [
+        {
+            "title": "Deda Digital",
+            "dateStart": "March 2022",
+            "dateFinish": "Present",
+            "desc": "I'm building custom ecommerce solutions. I'm also setting up schedules services and serveless microservices. Some tasks require me to implement marketing automation tools inside our products.",
+            "link": "https://www.deda.digital/home",
+            "stack": ["AWS", "Docker", "PrestaShop", "PHP", "SQL", "Python"]
+        },
+        {
+            "title": "Freelance",
+            "dateStart": "2020",
+            "dateFinish": "Present",
+            "desc": "I've built a few static websites and WordPress blogs before being employed. I'm still building random stuff for myself to learn new technologies and level-up my stack, some of which my are on my GitHub, while other lay dormant on my hard drive.",
+            "link": "",
+            "stack": ["WordPress", "Next.js", "React Native", "TypeScript", "MongoDB", "Node.js", "OpenAI"]
+        }
+    ],
+    "certification": [
+        {
+            "title": "PCAP - Certified Associate in Python Programming",
+            "date": "August 2023",
+            "link": "https://pythoninstitute.org/pcap"
+        },
+        {
+            "title": "PrestaShop Full-Stack Developer",
+            "date": "March 2023",
+            "link": "https://prestashop-academy.com/gb/"
+        }
+    ]
+}

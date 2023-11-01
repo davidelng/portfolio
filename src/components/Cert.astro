@@ -1,0 +1,16 @@
+---
+interface Props {
+    title: string;
+    date: string;
+    link?: string;
+}
+
+const { title, date, link = "#" } = Astro.props;
+---
+
+<li class="p-3 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg pointer">
+    <a href={link} target="_blank">
+        <p class="flex gap-2 items-center">{title}</p>
+        <div class="text-xs tracking-wide mt-1 text-neutral-400">{date}</div>
+    </a>
+</li>

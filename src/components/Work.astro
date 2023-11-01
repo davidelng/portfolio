@@ -1,0 +1,29 @@
+---
+import Badge from './Badge.astro';
+
+interface Props {
+    title: string;
+    dateStart: string;
+    dateFinish?: string;
+    desc?: string;
+    link?: string;
+    stack: string[];
+}
+
+const { title, dateStart, dateFinish = "Present", desc = "", link = "", stack = [] } = Astro.props;
+---
+
+<li class="flex flex-col gap-2 mt-2 max-w-2xl">
+    <div class="text-xs font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">{dateStart} — {dateFinish}</div>
+    { link !== "" 
+        ? <a class="flex items-center font-semibold" href="https://www.deda.digital/home" target="_blank">{title}</a>
+        : <p class="font-semibold">{title}</p>
+    }
+    {desc !== "" && <p class="text-sm leading-7 text-neutral-700 dark:text-neutral-400">{desc}</p>}
+    {
+        stack.length > 0 && 
+        <ul class="flex flex-wrap gap-2 mt-2">
+            {stack.map(item => <li><Badge text={item}/></li>)}
+        </ul>
+    }
+</li>
