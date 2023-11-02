@@ -16,7 +16,7 @@ const { title, dateStart, dateFinish = "Present", desc = "", link = "", stack = 
 <li class="flex flex-col gap-2 mt-2 max-w-2xl">
     <div class="text-xs font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">{dateStart} — {dateFinish}</div>
     { link !== "" 
-        ? <a class="flex items-center font-semibold" href="https://www.deda.digital/home" target="_blank">{title}</a>
+        ? <a class="flex items-center font-semibold hover:opacity-80" href="https://www.deda.digital/home" target="_blank">{title}</a>
         : <p class="font-semibold">{title}</p>
     }
     {desc !== "" && <p class="text-sm leading-7 text-neutral-700 dark:text-neutral-400">{desc}</p>}
