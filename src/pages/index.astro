@@ -9,7 +9,7 @@ import data from "../data.json";
 
 <Layout title={data.metadata.title} description={data.metadata.description}>
 	<div id="container" class="bg-white dark:bg-neutral-900 mx-auto max-w-6xl sm:border-x border-neutral-100 dark:border-neutral-700/50">
-		<header class="pt-20 pb-12 px-6 md:px-20 max-w-4xl">
+		<header class="pt-12 sm:pt-20 pb-12 px-6 md:px-20 max-w-4xl">
 		  <a href="/" aria-label="Home" class="block h-20 w-20">
 			<img src="./propic.jpg" alt="" fetchpriority="high" width="512" height="512" class="rounded-full bg-neutral-100 object-cover dark:bg-neutral-800 h-20 w-20">
 		 </a>
@@ -69,7 +69,7 @@ import data from "../data.json";
 		  </div>
 		</main>
 		<footer class="mt-24 px-6 md:px-20 pt-12 pb-16 text-sm border-t border-neutral-100 dark:border-neutral-700/50">
-			<div class="flex justify-between items-center gap-6">
+			<div class="flex justify-between items-center gap-3">
 				<p>Coded in <Link title="VS Code" href="https://code.visualstudio.com/"/>. Built with <Link title="Astro" href="https://astro.build/"/> and <Link title="Tailwind CSS" href="https://tailwindcss.com/"/>. Deployed on <Link title="Vercel" href="https://vercel.com/"/>.</p>
 				<ThemeToggle/>
 			</div>
