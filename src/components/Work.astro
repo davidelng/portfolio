@@ -14,7 +14,7 @@ const { title, dateStart, dateFinish = "Present", desc = "", link = "", stack = 
 ---
 
 <li class="flex flex-col gap-2 mt-2 max-w-2xl">
-    <div class="text-xs font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">{dateStart} — {dateFinish}</div>
+    <div class="text-xs font-semibold uppercase tracking-wide text-neutral-600 dark:text-neutral-400">{dateStart} — {dateFinish}</div>
     { link !== "" 
         ? <a class="flex items-center font-semibold hover:opacity-80" href="https://www.deda.digital/home" target="_blank">{title}</a>
         : <p class="font-semibold">{title}</p>
