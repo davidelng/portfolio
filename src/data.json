@@ -16,17 +16,17 @@
             "title": "Deda Digital",
             "dateStart": "March 2022",
             "dateFinish": "Present",
-            "desc": "Deliver custom e-commerce solutions (B2B/B2C) and hybrid apps that implement scheduled jobs, serverless microservices, marketing automation tools and client management system integration.",
+            "desc": "Deliver custom e-commerce solutions (B2B/B2C) and hybrid apps that implement scheduled jobs, serverless microservices and marketing automation tools.",
             "link": "https://www.deda.digital/home",
-            "stack": ["AWS", "Docker", "PrestaShop", "PHP", "SQL", "Python"]
+            "stack": ["AWS", "Docker", "PrestaShop", "PHP", "SQL", "Redis", "Python"]
         },
         {
             "title": "Freelance",
             "dateStart": "2020",
             "dateFinish": "Present",
-            "desc": "I've built a few static websites and WordPress blogs before being employed. I'm still building random stuff for myself to learn new technologies and level-up my stack, some of which are on my GitHub, while other lay dormant on my hard drive.",
+            "desc": "I'm always building random apps for myself for fun or educational purposes, some of which are on my GitHub, while others lay dormant on my hard drive.",
             "link": "",
-            "stack": ["WordPress", "Next.js", "React Native", "TypeScript", "MongoDB", "Node.js", "OpenAI", "Linux"]
+            "stack": ["WordPress", "Next.js", "React Native", "TypeScript", "Node.js", "Linux"]
         }
     ],
     "certification": [
