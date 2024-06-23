@@ -28,8 +28,9 @@
 </button>
 
 <script is:inline>
-  // const theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-  const theme = "dark";
+  const theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
 
   if (theme === "light") {
     document.documentElement.classList.remove("dark");
