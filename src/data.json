@@ -21,12 +21,12 @@
             "stack": ["AWS", "Docker", "PrestaShop", "PHP", "SQL", "Redis", "Python"]
         },
         {
-            "title": "Freelance",
-            "dateStart": "2020",
-            "dateFinish": "Present",
+            "title": "Dev for fun",
+            "dateStart": "",
+            "dateFinish": "",
             "desc": "I'm always building random apps for myself for fun or educational purposes, some of which are on my GitHub, while others lay dormant on my hard drive.",
             "link": "",
-            "stack": ["WordPress", "Next.js", "React Native", "TypeScript", "Node.js", "Linux"]
+            "stack": ["WordPress", "Next.js", "React Native", "Node.js", "Go", "Linux"]
         }
     ],
     "certification": [
