@@ -6,7 +6,7 @@
         "url": "https://davidelongo.dev",
         "keywords": "Web, Web Dev, Development, Developer, Full Stack"
     },
-    "csp" : "base-uri 'self'; default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'self'; font-src 'self'; object-src 'self'; frame-src 'none'; media-src 'self'; child-src 'self'; form-action 'self'; upgrade-insecure-requests; block-all-mixed-content",
+    "csp" : "base-uri 'self'; default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'self'; font-src 'self'; object-src 'self'; frame-src 'none'; media-src 'self'; child-src 'self'; form-action 'self'; upgrade-insecure-requests;",
     "about": {
         "text": "Developer, Musician and Surfskater based in Italy",
         "subtext": "Hi, I'm Davide, a Full Stack Developer focused on crafting accessible and robust digital products. When I'm not coding, you can find me surfskating, playing gigs or maybe exploring the world."
