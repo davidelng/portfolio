@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'aurora-gradient': "radial-gradient(at 93% 45%, hsla(18,100%,84%,0.15) 0px, transparent 50%),radial-gradient(at 40% 20%, hsla(33,100%,96%,1) 0px, transparent 50%),radial-gradient(at 0% 100%, hsla(9,48%,83%,0.43) 0px, transparent 50%),url('noise.svg')"
+				'aurora-gradient': "radial-gradient(at 93% 45%, hsla(18,100%,84%,0.15) 0px, transparent 50%),radial-gradient(at 40% 20%, hsla(33,100%,96%,1) 0px, transparent 50%),radial-gradient(at 0% 100%, hsla(9,48%,83%,0.43) 0px, transparent 50%)"
 			},
 			backgroundColor: {
 				'aurora-base': "hsla(33,100%,96%,1)"
